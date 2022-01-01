@@ -7,3 +7,6 @@ The purpose of this game is to get to the highest amount of currency.
 
 # Purpose of me making this game
 I made this game & was making it for the sole purpose of increasing my knowledge mainly about Javascript.
+
+# How long did this take to make?
+About ?
