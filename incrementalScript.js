@@ -88,6 +88,7 @@ function buyClicks() {
     let temp = clicks_upgcost * answer;
     if(clicks>=temp&&answer!=0) {
         clicks_upg+=answer;
+        clicks-=clicks_upgcost;
         clicks_upgcost*=random;
     }
 
@@ -108,6 +109,7 @@ function buyClickers() {
     let temp = clickerscost * answer;
     if(clicks>=temp&&answer!=0) {
         clickers+=answer;
+        clicks-=clickerscost;
         clickerscost*=random;
     }
 
@@ -128,6 +130,7 @@ function buyGrandmas() {
     let temp = grandmascost * answer;
     if(clicks>=temp&&answer!=0) {
         grandmas+=answer;
+        clicks-=grandmascost;
         grandmascost*=random;
     }
 
@@ -148,6 +151,7 @@ function buyGrandpas() {
     let temp = grandmascost * answer;
     if(clicks>=temp&&answer!=0) {
         grandpas+=answer;
+        clicks-=grandpascost;
         grandpascost*=random;
     }
 
@@ -168,6 +172,7 @@ function buyDogs() {
     let temp = dogscost * answer;
     if(clicks>=temp&&answer!=0) {
         dogs+=answer;
+        clicks-=dogscost;
         dogscost*=random;
     }
 
@@ -188,6 +193,7 @@ function buyBots() {
     let temp = botscost * answer;
     if(clicks>=temp&&answer!=0) {
         bots+=answer;
+        clicks-=botscost;
         botscost*=random;
     }
 
