@@ -202,9 +202,13 @@ function buyBots() {
 }
 
 /* Intervals */
-//Money Per Second Intervalz
+//Money Per Second Intervals
 setInterval(function() {
-    clicks+=clickers + (grandmas * 3) + (grandpas * 5) + (dogs * 10) + (bots * 50);
+    let grandmas_ = grandmas * 3;
+    let grandpas_ = grandpas * 5;
+    let dogs_ = dogs * 10;
+    let bots_ = bots * 50;
+    clicks+=clickers + grandmas_ + grandpas_ + dogs_ + bots_;
     label.innerHTML = clicks;
 }, 1000);
 
