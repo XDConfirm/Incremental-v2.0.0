@@ -184,7 +184,7 @@ function buyDogs() {
 //Bots
 function buyBots() {
     let random = Math.round(Math.random() * 3) + 1;
-    let answer = prompt("Enter the amount you wanto to buy.");
+    let answer = prompt("Enter the amount you want to to buy.");
     let temp = botscost * answer;
     if(clicks>=temp&&answer!=0) {
         bots+=answer;
@@ -204,7 +204,7 @@ function buyBots() {
 /* Intervals */
 //Money Per Second Intervalz
 setInterval(function() {
-    clicks+=clickers + (grandmas * 3) + (grandpas * 5) + (dogs * 10);
+    clicks+=clickers + (grandmas * 3) + (grandpas * 5) + (dogs * 10) + (bots * 50);
     label.innerHTML = clicks;
 }, 1000);
 
