@@ -1,0 +1,111 @@
+html, body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+:root {
+    --db: block;
+    --dn: none;
+    --vv: visible;
+    --vh: hidden;
+}
+
+#main {
+    text-align: center;
+    display: var(--db);
+    visibility: var(--vv);
+    animation-name: intro;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+@keyframes intro {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+label#forclicker {
+    font-size: 1.5em;
+}
+
+input[type=button]#clicker-btn {
+    font-size: 1.45em;
+    background-color: whitesmoke;
+    outline: none;
+    border: 3px solid gray;
+    border-radius: 1em;
+    width: 95%;
+}
+
+input[type=button]#clicker-btn:active {
+    background-color: #e5e4e2;
+}
+
+.divider {
+    border: 3px solid white;
+    border-radius: 1em;
+}
+
+input[type=button]#upgrades-btn {
+    font-size: 1.6em;
+    
+}
+
+#stats {
+    font-size: 1.5em;
+    color: lightgreen;
+}
+
+#upgrades {
+    text-align: center;
+    display: var(--dn);
+    visibility: var(--vh);
+    font-size: 1.7em;
+    animation-name: upgrade;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+@keyframes upgrade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#upgrades #close {
+    font-size: 1.3em;
+    float: right;
+}
+
+#upgheader {
+    font-size: 1.5em;
+}
+
+.upgrade-btn {
+    text-align: center;
+    width: 50%;
+    height: 1.3em;
+    font-size: 1.3em;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 0.5em;
+}
+
+.cost {
+    text-align: center;
+    font-size: 1.3em;
+}
