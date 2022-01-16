@@ -214,10 +214,13 @@ setInterval(function() {
     let grandpas_ = grandpas * 5;
     let dogs_ = dogs * 10;
     let bots_ = bots * 50;
-    clicks+=clickers + grandmas_ + grandpas_ + dogs_ + bots_;
+    
     setTimeout(function() {
-    label.innerHTML = clicks
-    }, 500)
+    clicks+=clickers + grandmas_ + grandpas_ + dogs_ + bots_;
+    }, 250)
+    setTimeout(function() {
+    label.innerHTML = clicks;
+    }, 250)
 }, 500);
 
 //Update Stats
