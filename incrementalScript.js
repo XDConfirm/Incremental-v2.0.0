@@ -215,8 +215,10 @@ setInterval(function() {
     let dogs_ = dogs * 10;
     let bots_ = bots * 50;
     clicks+=clickers + grandmas_ + grandpas_ + dogs_ + bots_;
-    label.innerHTML = clicks;
-}, 1000);
+    setTimeout(function() {
+    label.innerHTML = clicks
+    }, 500)
+}, 500);
 
 //Update Stats
 setInterval(function() {
