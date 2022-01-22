@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Incremental </title>
+    <link rel="stylesheet" href="incrementalStyle.css">
+    <link rel="icon" href="incremental.jpg">
+</head>
+<body>
+    
+    <div id="main">
+        <label for="clicker" id="forclicker">0</label>
+            <br>
+        <input type="button" name="clicker" id="clicker-btn" value="Click!" onclick="addClicks();">
+
+            <br> <hr class="divider">
+
+        <input type="button" id="upgrades-btn" value="Upgrades" onclick="openUpgrades();">
+
+            <br> <br> <br>
+
+        <div id="stats">
+            <b>
+            <span id="clicksshow"> Clicks: <i id="clicks-value"> 1 </i> </span>
+                <br>
+            <span id="clickersshow"> Clickers: <i id="clickers-value"> 0 </i></span>
+                <br>
+            <span id="grandmasshow"> Grandmas: <i id="grandmas-value"> 0 </i></span>
+                <br>
+            <span id="grandpasshow"> Grandpas: <i id="grandpas-value"> 0 </i></span>
+                <br>
+            <span id="dogsshow"> Dogs: <i id="dogs-value"> 0 </i></span>
+                <br>
+            <span id="botsshow"> Bots: <i id="bots-value"> 0 </i></span>
+            </b>
+        </div>
+    </div>
+
+    <div id="upgrades">
+       <span id="upgheader"> Upgrades </span> <span id="close" onclick="closeUpgrades();"> &#10005; </span>
+
+                <br> <br>
+
+        <label for="clickscost" id="clickscost" class="cost">100</label>
+            <br>
+        <input type="button" id="clicks-upg" class="upgrade-btn" name="clickscost" value="Clicks" onclick="buyClicks();">
+
+                    <br> <br> <hr class="divider">
+
+        <label for="clickerscost" id="clickerscost" class="cost">150</label>
+            <br>
+        <input type="button" id="clickers-upgrade" class="upgrade-btn" name="clickerscost" value="Clickers" onclick="buyClickers();">
+
+                <br> <br> <hr class="divider">
+
+        <label for="grandmascost" id="grandmascost" class="cost">450</label>
+            <br>
+        <input type="button" id="grandmas-upgrade" class="upgrade-btn" name="grandmascost" value="Grandmas" onclick="buyGrandmas();">
+
+                <br> <br> <hr class="divider">
+
+        <label for="grandpascost" id="grandpascost" class="cost">750</label>
+            <br>
+        <input type="button" id="grandpas-upgrade" class="upgrade-btn" name="grandpascost" value="Grandpas" onclick="buyGrandpas();">
+
+                <br> <br> <hr class="divider">
+        
+        <label for="dogscost" id="dogscost" class="cost"> 1500 </label>
+            <br>
+        <input type="button" id="dogs-upgrade" class="upgrade-btn" name="dogscost" value="Dogs" onclick="buyDogs();">
+
+                <br> <br> <hr class="divider">
+
+        <label for="botscost" id="botscost" class="cost"> 7500 </label>
+            <br>
+        <input type="button" id="bots-upgrade" class="upgrade-btn" name="botscost" value="Bots" onclick="buyBots();">
+    </div>
+
+    <aside>
+        <div id="script">
+            <script src="incrementalScript.js"></script>
+        </div>
+    </aside>
+</body>
+</html>
