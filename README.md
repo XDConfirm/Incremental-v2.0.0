@@ -6,5 +6,6 @@
     
  ### What is an Incremental?
     An Incremental is a clicker game.
-    You usually click something to gain some type of currency. With that currency, you buy upgrades which is can help you get
-    more of that currency. Think of it like Cookie Clicker (I hope you've played it)
+    You usually click something to gain some type of currency. With that currency,
+    you buy upgrades which is can help you get more of that currency. 
+    Think of it like Cookie Clicker (I hope you've played it)
