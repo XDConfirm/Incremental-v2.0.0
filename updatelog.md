@@ -1,11 +1,9 @@
 ## Oldest Version | 1.0
-
     Basis Click Button
     Upgrades
     Stats
 
 ## Version | 1.1 
-
     Basis Click Button
     Upgrades
     Stats
@@ -15,7 +13,6 @@
     Local Scoped Variables added for interval
 
 ## Version | 1.2
-
     Basis Click Button
     Upgrades
     Stats
@@ -26,7 +23,6 @@
     Page Icon (JPG) added
 
 # Newest Version | 1.3
-
     Basis Click Button
     Upgrades
     Stats
@@ -36,8 +32,8 @@
     Username Prompt
     Action Recording
     Upgrade Button Styled
-    Removed unnecessaru / unused code
-    Bariables & Comments rearranged in script
+    Removed unnecessary / unused code
+    Variables & Comments rearranged in script
     Grammar in some prompts & alerts fixed
 
     Fixed Bugs:
