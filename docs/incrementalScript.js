@@ -160,7 +160,7 @@ function buyGrandpas() {
     let random = Math.round(Math.random() * 3) + 1;
     let answer = prompt("Enter the amount you want to buy.");
     let answer0 = Number(answer);
-    let temp = grandmascost * answer0;
+    let temp = grandpascost * answer0;
     if(clicks>=temp&&answer0!=0&&answer!=null) {
         grandpas+=answer0;
         clicks-=grandpascost;
