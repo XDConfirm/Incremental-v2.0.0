@@ -41,3 +41,4 @@
     Clicks Upgrade was being added as a string instead of a number
 
 # Version 1.4 Coming Soon!
+    (Version 1.4 has been delayed, by like, a lot)
