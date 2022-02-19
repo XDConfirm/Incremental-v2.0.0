@@ -1,11 +1,22 @@
-# Incremental V1.3
-    Thank you for visiting this repository of my Incremental game. This is an html game, with css & js.
-    This game took me a couple of months to finish & upload. More is definitely coming to this game.
-    And feel free to critique me, I have only been coding for 2 years now (Mainly html, css, & js). 
-    Well, have a good day now :)
-    
- ### What is an Incremental?
-    An Incremental is a clicker game.
-    You usually click something to gain some type of currency. With that currency,
-    you buy upgrades which is can help you get more of that currency. 
-    Think of it like Cookie Clicker (I hope you've played it)
+## Incremental v1.3
+As in v1.3, the point of this game is to just click! The amount of clicks you have / get is your currency.
+With that, you can buy upgrades along with getting Achievements!
+
+## Requirements
+All you really need is a device or browser that can run Javascript. If the javascript isn't working, make sure that you don't have Javascript disabled from the Developer Console.
+I also recommend using a device that is about 200x450 resolution. But I don't think most modern machines are that small in native resolution.
+
+### To-Do List for Future Updates
+- [ ] Statistics
+- [ ] Settings
+- [ ] New Upgrades
+- [ ] Achievements
+- [ ] Prestige
+- [ ] Saving System
+- [ ] Loading System
+- [ ] Game Data Deletion
+- [ ] Background Music
+- [ ] Better Looking UI
+- [ ] Entire Game Goal
+- [ ] Reduce File Sizes?
+- [ ] Better Favicon?
