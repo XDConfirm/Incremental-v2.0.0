@@ -1,6 +1,6 @@
 ## Incremental v1.3
 As in v1.3, the point of this game is to just click! The amount of clicks you have / get is your currency.
-With that, you can buy upgrades along with getting Achievements!
+With that, you can buy upgrades and get even more clicks!
 
 ## Requirements
 All you really need is a device or browser that can run Javascript. If the javascript isn't working, make sure that you don't have Javascript disabled from the Developer Console.
