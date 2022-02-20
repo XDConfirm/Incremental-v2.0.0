@@ -20,3 +20,5 @@ I also recommend using a device that is about 200x450 resolution. But I don't th
 - [ ] Entire Game Goal
 - [ ] Reduce File Sizes?
 - [ ] Better Favicon?
+
+## _Incremental v1.4 should be released this week!_
