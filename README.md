@@ -1,22 +1,31 @@
-## Incremental v1.4
-As in v1.4, the point of this game is to just click! The amount of clicks you have / get is your currency.
-With that, you can buy upgrades while getting achievements!
-
-## Requirements
-All you really need is a device or browser that can run Javascript. If the javascript isn't working, make sure that you don't have Javascript disabled from the Developer Console.
-I also recommend using a device that is about 200x450 resolution. But I don't think most modern machines are that small in native resolution.
-
-### To-Do List for Future Updates
+# Progress
+### v1.4
 - [x] Statistics
-- [ ] Settings
+- [x] Settings
 - [x] New Upgrades
 - [x] Achievements
+
+### v1.4.1
+- [ ] Max Amount of Upgrades
+
+### v1.4.2
+- [ ] New Achievements
+
+### v1.5.2
 - [ ] Prestige
-- [ ] Saving System
-- [ ] Loading System
-- [ ] Game Data Deletion
-- [ ] Background Music
-- [x] Better Looking UI
-- [ ] Entire Game Goal
-- [ ] Reduce File Sizes?
-- [x] Better Favicon?
+- [ ] Hard Reset
+- [ ] BG Music
+
+### v1.6.2
+- [ ] Possible Saving System
+- [ ] Possible Loading System
+
+### v1.7.2
+- [ ] Full Game Goal
+
+## Just Talkin'
+### Day 1 _2/21/2022_
+hey, i just wanted to make this so people could possibly see my journey through this. i dont know if that made sense but im sure you know what i meant. hopefully. but yknow, i definitely sacrificed my sleep & homework to get v1.4 out. since i literally started from scratch and built the game up. but im trying here. i have a lot of assignments for school that i still havent done, but yet here i am still coding. at this point, it is what it is.
+
+### Day 2 _2/22/2022_
+???
