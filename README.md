@@ -16,7 +16,7 @@ I also recommend using a device that is about 200x450 resolution. But I don't th
 - [ ] Loading System
 - [ ] Game Data Deletion
 - [ ] Background Music
-- [ ] Better Looking UI
+- [x] Better Looking UI
 - [ ] Entire Game Goal
 - [ ] Reduce File Sizes?
 - [x] Better Favicon?
