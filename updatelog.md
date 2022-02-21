@@ -25,7 +25,7 @@
     Clicks Upgrade was being added as a string instead of a number
 
 # Version 1.4
-    i remade the entire game from scratch
+i remade the entire game from scratch
 
 ### New:
     User Interface Updated 
