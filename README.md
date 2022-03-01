@@ -5,5 +5,3 @@ With that, you can buy upgrades while getting achievements!
 ## Requirements
 All you really need is a device or browser that can run Javascript. If the javascript isn't working, make sure that you don't have Javascript disabled from the Developer Console.
 I also recommend using a device that is about 200x450 resolution. But I don't think most modern machines are that small in native resolution.
-
-### [Website](https://xdconfirm.github.io/Incremental-v1.4/)
