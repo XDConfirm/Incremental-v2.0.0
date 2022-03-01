@@ -196,7 +196,6 @@ var stats = {
 /* Functions (Game Mechanics) */
 function addClicks() {
     let random = Math.round(Math.random() * 9) + 1;
-    console.log(random);
     if(game.upgrades.luck>random&&luck!=0) {
         game.clicks+=(game.upgrades.clicks * game.upgrades.luck_multiplier);
         stats.main.total+=(game.upgrades.clicks * game.upgrades.luck_multiplier);
