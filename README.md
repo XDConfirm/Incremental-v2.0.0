@@ -6,7 +6,8 @@
 - [x] Achievements
 
 ### v1.4.1
-- [ ] Max Amount of Upgrades
+- [x] Max Amount of Upgrades
+- [x] Buy Amount
 
 ### v1.4.2
 - [ ] New Achievements
