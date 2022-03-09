@@ -1,5 +1,5 @@
-## Incremental v1.4
-As in v1.4, the point of this game is to just click! The amount of clicks you have / get is your currency.
+## Incremental v1.4.1
+As in v1.4.1, the point of this game is to just click! The amount of clicks you have / get is your currency.
 With that, you can buy upgrades while getting achievements!
 
 ## Requirements
