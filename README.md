@@ -11,6 +11,7 @@
 
 ### v1.4.2
 - [ ] New Achievements
+- [ ] Console Logging Customization
 
 ### v1.4.3
 - [ ] Opening Section Script Changed
