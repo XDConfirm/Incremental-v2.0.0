@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Incremental v1.4.2 </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon Links -->
+    <link rel="icon" href="icons/favicon.ico">
+</head>
+
+<body>
+    <header>
+        Incremental
+        <br>
+        v1.4.2
+        <br>
+        XDConfirm
+    </header>
+
+    <div id="main">
+
+        <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+        <input type="button" id="click-btn" value="0" onclick="clickbtn();">
+
+            <br> <br>
+
+            <input type="button" id="stat-btn" class="button" value="Stats" onclick="openstats();">
+
+            <br>
+
+            <input type="button" id="setting-btn" class="button" value="Settings" onclick="opensettings();">
+
+            <br>
+
+        <input type="button" id="upgrade-btn" class="button" value="Upgrades" onclick="openupgrades();">
+
+            <br>
+
+        <input type="button" id="achievement-btn" class="button" value="Achievements" onclick="openachievements();">
+
+        <br> <br> <br> <br>
+
+        <noscript> JAVASCRIPT IS DISABLED </noscript>
+    </div>
+
+    <div id="stats">
+        <span class="close" onclick="closesec();"> &#10006; </span>
+
+        <br> <br> <br> <br> <br> <br>
+
+        <div id="subupgrade">
+            <span class="subdivheader"> Upgrades </span>
+
+                <br> <br>
+
+            <span id="clicksstats" class="stats"> Clicks: 1 </span>
+                <br>
+            <span id="luckstats" class="stats"> Luck: 0 </span>
+                <br>
+            <span id="luck-multiplierstats" class="stats"> Luck Multiplier: 2 </span>
+                <br>
+            <span id="auto-clickersstats" class="stats"> Auto Clickers: 0 </span>
+                <br>
+            <span id="botsstats" class="stats"> Bots: 0 </span>
+                <br>
+            <span id="macrosstats" class="stats"> Macros: 0 </span>
+                <br>
+            <span id="bought" class="stats"> Amount of Bought Upgrades: 0 </span>
+        </div>
+
+        <div id="game">
+            <span class="subdivheader"> Game </span>
+
+                <br> <br>
+
+            <span id="clicked" class="stats"> Total Clicked: 0 </span>
+                <br>
+            <span id="totalclicks" class="stats"> Total Clicks: 0 </span>
+        </div>
+
+        <div id="subachievements">
+            <span class="subdivheader"> Achievements </span>
+
+
+                <br> <br>
+
+            <span id="amountachievements" class="stats"> Amount of Gained Achievements: 0 </span>
+        </div>
+
+        <span id="leftstats" class="arrow" onclick="statsprevious();"> &#8592; </span>
+        <span id="rightstats" class="arrow" onclick="statsnext();"> &#8594; </span>
+
+    </div>
+
+    <div id="settings">
+        <span class="close" onclick="closesec();"> &#10006;</span>
+
+        <br> <br> <br> <br> <br>
+    </div>
+
+    <div id="upgrades">
+        <span class="close" onclick="closesec(); upgradePopUp('disappear');"> &#10006; </span>
+
+            <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+        <div id="sub">
+            <div id="manualupgrade">
+                <input type="button" class="upgrade" id="buyclicks" value="Clicks" onclick="buyclicks();" onmouseover="upgradePopUp('clicks');">
+
+                    <br>
+
+                <input type="button" class="upgrade" id="luck" value="Luck" onclick="buyluck();" onmouseover="upgradePopUp('luck');">
+
+                    <br>
+
+                <input type="button" class="upgrade" id="luckmultiplier" value="Luck Multiplier" onclick="buyluck_multiplier();" onmouseover="upgradePopUp('luckmultiplier');">
+            </div>
+
+            <div id="autoupgrade">
+                <input type="button" class="upgrade" id="autoclickers" value="Auto Clickers" onclick="buyauto_clickers();" onmouseover="upgradePopUp('autoclickers');">
+
+                <br>
+
+                <input type="button" class="upgrade" id="bots" value="Bots" onclick="buybots();" onmouseover="upgradePopUp('bots');">
+
+                <br>
+
+                <input type="button" class="upgrade" id="macros" value="Macros" onclick="buymacros();" onmouseover="upgradePopUp('macros');">
+            </div>
+
+                <br> <br> <br>
+
+            <span id="leftupgrade" class="arrow" onclick="upgradesprevious(); upgradePopUp('disappear');"> &#8592; </span>
+            <span id="rightupgrade" class="arrow" onclick="upgradesnext(); upgradePopUp('disappear');"> &#8594; </span>
+            </div>
+
+            <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+            <div class="upgpopup"> popup </div>
+
+            <div id="perbuy" onclick="buy();"> Buy: 1x </div>
+        </div>
+
+    <div id="achievements">
+        <span class="close" onclick="closesec();"> &#10006; </span>
+
+        <br> <br> <br> <br> <br>
+
+        <b id="clicksachievements" class="actualachievement">
+            <span class="achievement clicks"> Get 1 click! </span>
+                <br>
+            <span class="achievement clicks"> Get 10 clicks! </span>
+                <br>
+            <span class="achievement clicks"> Get 100 clicks! </span>
+                <br>
+            <span class="achievement clicks"> Get 1,000 clicks! </span>
+                <br>
+            <span class="achievement clicks"> Get 10,000 clicks! </span>
+                <br>
+            <span class="achievement clicks"> Get 100,000 clicks! </span>
+                <br>
+            <span class="achievement clicks"> Get 1,000,000 clicks! </span>
+                <br>
+            <span class="achievement clicks"> Get 10,000,000 clicks! </span>
+                <br>
+            <span class="achievement clicks"> Get 100,000,000 clicks! </span>
+                <br>
+            <span class="achievement clicks"> Get 1,000,000,000 clicks! </span>
+        </b>
+
+        <b id="upgradesachievements" class="actualachievement">
+            <span class="achievement clickupg"> Get 15 clicks! </span>
+                <br>
+            <span class="achievement clickupg"> Get 30 clicks! </span>
+                <br>
+            <span class="achievement clickupg"> Get 45 clicks! </span>
+                <br>
+            <span class="achievement clickupg"> Get 60 clicks! </span>
+                <br>
+            <span class="achievement luck"> Get 3 luck! </span>
+                <br>
+            <span class="achievement luck"> Get 5 luck! </span>
+                <br>
+            <span class="achievement luck"> Get 7 luck! </span>
+                <br>
+            <span class="achievement luck"> Get 10 luck! </span>
+                <br>
+            <span class="achievement luckmultiplier"> Get a luck multiplier of 3! </span>
+                <br>
+            <span class="achievement luckmultiplier"> Get a luck multiplier of 4! </span>
+                <br>
+            <span class="achievement luckmultiplier"> Get a luck multiplier of 5! </span>
+                <br>
+            <span class="achievement autoclicker"> Get 1 auto clicker! </span>
+                <br>
+            <span class="achievement autoclicker"> Get 15 auto clickers! </span>
+                <br>
+            <span class="achievement autoclicker"> Get 30 auto clickers! </span>
+                <br>
+            <span class="achievement autoclicker"> Get 45 auto clickers! </span>
+                <br>
+            <span class="achievement autoclicker"> Get 60 auto clickers! </span>
+                <br>
+            <span class="achievement bot"> Get 1 bot! </span>
+                <br>
+            <span class="achievement bot"> Get 15 bots! </span>
+                <br>
+            <span class="achievement bot"> Get 30 bots! </span>
+                <br>
+            <span class="achievement bot"> Get 45 bots! </span>
+                <br>
+            <span class="achievement bot"> Get 60 bots! </span>
+                <br>
+            <span class="achievement macro"> Get 1 macro! </span>
+                <br>
+            <span class="achievement macro"> Get 15 macros! </span>
+                <br>
+            <span class="achievement macro"> Get 30 macros! </span>
+                <br>
+            <span class="achievement macro"> Get 45 macros! </span>
+            </span>
+        </b>
+
+    <!--
+        <b id="amountachievements" class="actualachievements">
+            <span id="1bought" class="achievement"> Buy 1 upgrade! </span>
+                <br>
+            <span id="30bought" class="achievement"> Buy 30 upgrades! </span>
+        </b>
+    -->
+
+        <br> <br> <br>
+
+        <span id="leftachievements" class="arrow" onclick="achievementsprevious();"> &#8592; </span>
+        <span id="rightachievements" class="arrow" onclick="achievementsnext();"> &#8594; </span>
+    </div>
+
+    <div class="popup"> text </div>
+
+    <aside>
+        <div id="script">
+            <script src="game.js" defer></script>
+            <script src="achieve.js" defer></script>
+            <!-- <script src="save.js" defer></script> -->
+        </div>
+    </aside>
+</body>
+</html>
