@@ -1,0 +1,88 @@
+html, body {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+    color: white;
+    background-color: rgba(40, 40, 40, 0.9);
+    width: 50vw;
+    height: 20vh;
+    position: fixed;
+    top: 1;
+    left: 130px;
+    padding: 10px;
+    border: 5px solid rgba(30, 30, 30, 0.9);
+    border-radius: 12px;
+    outline: none;
+    display: none;
+    visibility: hidden;
+
+    animation-name: alert, exitalert;
+    animation-duration: 2.3s, 1s;
+    animation-delay: 0s, 5s;
+    animation-timing-function: ease-out, ease-in;
+}
+
+#container div {
+    z-index: -1;
+}
+
+#accept {
+    float: right;
+    margin: 31.7% 0 0 0;
+}
+
+#accept {
+    background-color: lightblue;
+    font-weight: 750;
+    font-size: 1em;
+    width: 20%;
+    border: none;
+    outline: none;
+}
+
+#behindtext {
+    font-weight: 1000;
+    letter-spacing: 1px;
+    z-index: -1;
+    position: fixed;
+    left: 240px;
+    margin-top: 4em;
+}
+
+#alertbtn {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 2em;
+    font-weight: 750;
+    background-color: lightcoral;
+    position: fixed;
+    z-index: -1;
+    left: 247px;
+    bottom: 225px;
+}
+
+@keyframes alert {
+    from {
+        top: -1000px;
+    }
+
+    to {
+        top: 8px;
+    }
+}
+
+@keyframes exitalert {
+    from {
+        top: 8px;
+    }
+
+    to {
+        top: -1000px;
+    }
+}

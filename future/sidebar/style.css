@@ -1,0 +1,68 @@
+html, body {
+    background-color: rgba(50, 50, 50, 1);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=button] {
+    text-align: center;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+    font-size: 1.4em;
+}
+
+#container {
+    font-size: 0;
+    position: absolute;
+}
+
+#sidebar {
+    position: fixed;
+    vertical-align: top;
+    text-align: left;
+    color: white;
+    background:rgba(100, 100, 100, 1);
+    width: 33vw;
+    height: 100vh;
+    margin: 0;
+    top: 0;
+    right: 0;
+    border: none;
+    border-left: 11px solid black;
+    display: none;
+    visibility: hidden;
+
+    animation-name: sidebar, exitsidebar;
+    animation-duration: 1s, 1s;
+    animation-delay: 0s, 5s;
+    animation-timing-function: ease-out, ease-in;
+}
+
+#close {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+@keyframes sidebar {
+    from {
+        right: -1000px;
+    }
+
+    to {
+        right: 0.1em;
+    }
+}
+
+@keyframes exitsidebar {
+    from {
+        right: 0.1em;
+    }
+
+    to {
+        right: -1000px;
+    }
+}
