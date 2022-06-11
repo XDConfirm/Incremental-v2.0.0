@@ -7,4 +7,3 @@ You only need a browser that can run HTML5, CSS3, & JS ES6. In short, just make 
 
 ## Website Links
 - [GitHub](https://xdconfirm.github.io/Incremental-v1.4.1/)
-- [Itch.io]()
