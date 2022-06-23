@@ -10,11 +10,13 @@
 - [x] Buy Amount
 
 ### v1.4.2
-- [ ] New Achievements
-- [ ] Console Logging Customization
+- [x] Other Things :)
 
 ### v1.4.3
+- [ ] New Achievements
 - [ ] Opening Section Script Changed
+- [ ] Settings Sidebar
+- [ ] Upgrade Alert Popup
 
 ### v1.5.3
 - [ ] Prestige
