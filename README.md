@@ -1,31 +1,31 @@
 # Progress
 ### v1.4
-- [x] Statistics
-- [x] Settings
-- [x] New Upgrades
-- [x] Achievements
+- Statistics |x|
+- Settings |x|
+- New Upgrades |x|
+- Achievements |x|
 
 ### v1.4.1
-- [x] Max Amount of Upgrades
-- [x] Buy Amount
+- Max Amount of Upgrades |x|
+- Buy Amount |x|
 
 ### v1.4.2
-- [x] Other Things :)
+- Other Things :) |x|
 
 ### v1.4.3
-- [x] New Achievements
-- [x] Opening Section Script Changed
-- [ ] Settings Sidebar
-- [ ] Upgrade Alert Popup
+- New Achievements |x|
+- Opening Section Script Changed |x|
+- Settings Sidebar | |
+- Upgrade Alert Popup | |
 
 ### v1.5.3
-- [ ] Prestige
-- [ ] Hard Reset
-- [ ] BGM (Hopefully)
+- Prestige | |
+- Hard Reset | |
+- BGM (Hopefully) | |
 
 ### v1.6.3
-- [ ] Possible Saving System
-- [ ] Possible Loading System
+- Possible Saving System | |
+- Possible Loading System | |
 
 ### v1.7.3
-- [ ] Full Game Goal
+- Full Game Goal | |
