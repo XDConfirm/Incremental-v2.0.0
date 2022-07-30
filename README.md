@@ -20,8 +20,6 @@
 
 ### v1.5.3
 - Prestige | |
-- Hard Reset | |
-- BGM (Hopefully) | |
 
 ### v1.6.3
 - Possible Saving System | |
@@ -29,3 +27,7 @@
 
 ### v1.7.3
 - Full Game Goal | |
+
+### Miscellanous
+- BGM | |
+- Hard Reset | | (Moved From v1.5.3)
