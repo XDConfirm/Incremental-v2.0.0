@@ -8,3 +8,5 @@ You only need a browser that can run HTML5, CSS3, & JS ES6. In short, just make 
 ## Website Links
 - [**_GitHub_**](https://xdconfirm.github.io/Incremental-v2.0.0/)
 - [**_Itch.io_**](https://xdconfirmed.itch.io/incrementalv1-4-2)
+
+**_So, i'll be honest. the versioning is most likely really bad. please excuse it. i'm a rookie when it comes to stuff like this, especially with github._**
