@@ -1,19 +1,19 @@
-## Oldest Version | 1.0
+## Oldest Version | 1.0.0
     Basis Click Button
     Upgrades
     Stats
 
-## Version | 1.1 
+## Version | 1.0.1
 ### New
     Grammar fixed from prompts & alerts
 
-## Version | 1.2
+## Version | 1.1
 ### New:
     Markdown file updated
     Page is being hosted properly on Github Pages
     Page Icon (JPG) added
 
-# Newest Version | 1.3
+# Newest Version | 1.2
 ### New:
     Username Prompt
     Action Recording
@@ -24,7 +24,7 @@
     Money would be taken away even though the upgrade prompt was cancelled by the user
     Clicks Upgrade was being added as a string instead of a number
 
-# Version 1.4
+# Version 2.0
 i remade the entire game from scratch
 
 ### New:
@@ -37,5 +37,3 @@ i remade the entire game from scratch
     Bot Upgrade Cost Reduced
 
 # Version 1.5 (Coming Soon!)
-
-# _(THIS UPDATE LOG ONLY CONTAINS FULL-ON UPDATES, NO SUB UPDATES ARE LISTED HERE)
