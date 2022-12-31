@@ -1,3 +1,7 @@
+### i'm remaking the entire game again. so development might take a bit longer now. but ive decided that i could make the game better if i just do it from scratch again. also because i couldnt fix the animation bug :)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Incremental v2.0.0
 As in v2.0.0, the point of this game is to just click! The amount of clicks you have / get is your currency.
 With that, you can buy upgrades while getting achievements!
