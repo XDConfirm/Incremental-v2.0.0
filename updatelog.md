@@ -36,4 +36,6 @@ i remade the entire game from scratch
     New Upgrades
     Bot Upgrade Cost Reduced
 
-# Version 1.5 (Coming Soon!)
+-----------------------------
+
+### remaking the game currently
